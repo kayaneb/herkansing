@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0.625em;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 1.250em;
+}
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover {
+    font-size: 1em;
+    color: darkred;
+    border-top: 0.06em solid darkred;
+    border-bottom: 0.06em solid darkred;
+}
+
+p {
+    color: darkred;
+}
+.container {
+    max-width: 81.25em;
+    margin: auto;
+    padding-left: 1.563em;
+    padding-right: 1.563em;
+}
+
+header {
+    background: radial-gradient(#fff, #cfcfcf);
+
+}
+header .row {
+    margin-top: 4.375em;
+}
+
+.categories {
+    margin: 0 auto;
+    width: 60em;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 5em;
+    position: relative;
+    line-height: 3.75rem;
+    color: #555;
+}
+.title::after {
+    content: "";
+    background: #971503;
+    width: 5em;
+    height: 0.313em;
+    border-radius: 0.625em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.card-1 {
+    background: white;
+    width: 18.75em;
+    margin: 0.625em;
+    border-radius: 62.50%;
+}
+.card-image {
+    height: 16.25em;
+    margin-top: 3.125em;
+    margin-bottom: 3.125em;
+    background-size: cover;
+}
+
+
+.card p {
+    padding: 0.625em;
+}
+
+/*-------footer---------*/
+footer {
+    background: rgb(173, 170, 170);
+    color: #000000;
+    font-size: 0.875em;
+    padding: 3.125em 0 1.25em;
+}
+
+footer {
+    color: #000000;
+}
+
+footer {
+    color: #fff;
+    margin-bottom: 1.25em;
+}
+
+footer {
+    min-width: 1.25em;
+    margin-bottom: 0.625em;
+}
+
+footer {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*-------merch pagina---------*/
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    width: 36.25em;
+    margin: 0.625em;
+    border-radius: 0.938em;
+}
+.card-image {
+    height: 28.125em;
+    margin-top: 5em;
+    margin-bottom: 3.125em;
+    background-size: cover;
+}
+
+.card-image img {
+    width: 80%;
+    justify-content: center;
+}
+
+
+.card p {
+    padding: 0.625em;
+}
+
+.card:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.2s ease;
+}
+
+/*-------cd pagina---------*/
+
+.card a:last-child {
+    background-color: darkred;
+    color: white;
+    padding: 0.938em 1.25em;
+    display: block;
+    text-align: center;
+    margin: 1.25em 1.25em;
+}
+
+/*-------product pagina---------*/
+
+.small-container {
+    max-width: 62.5em;
+    margin: auto;
+    padding-left: 1.563em;
+    padding-right: 1.25em;
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.single-product {
+    margin-top: 5em;
+}
+.small-img-row {
+    display: flex;
+    justify-content: space-around;
+}
+.col-2 img {
+    max-width: 100%;
+    padding: 3.125em 0;
+    margin-bottom: 6.25em;
+}
+.small-img.col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.single-product .col-2 img {
+    margin: 3.125em;
+}
+.single-product .col-2 {
+    padding: 1.25em;
+}
+.col-2 {
+    flex-basis: 50%;
+    min-width: 18.75em;
+}
+.col-2 h1 {
+    font-size: 5em;
+    line-height: 3.75em;
+    margin: 1.563em 0;
+}
+.single-product select {
+    display: block;
+    padding: 0.625em;
+    margin-top: 1.25em;
+}
+.single-product p {
+    margin: 1.25em 0;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.single-product input {
+    width: 3.125em;
+    height: 2.5em;
+    padding-left: 0.625em;
+    margin-right: 0.625em;
+    border: 0.063em solid #645f5f;
+}
+input:focus {
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(85, 83, 83);
+}
+.btn {
+    background-color: darkred;
+    color: white;
+    padding: 0.5em 1.875em;
+    display: inline-block;
+    text-align: center;
+    margin: 1.25em 1.25em;
+}
+.btn:hover {
+    color: white;
+}
+
+.col-2 img:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+}
